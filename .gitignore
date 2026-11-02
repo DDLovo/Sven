@@ -1,0 +1,6 @@
+**/bin/
+**/obj/
+local/
+unity/
+*.user
+*.zip

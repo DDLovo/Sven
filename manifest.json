@@ -1,0 +1,21 @@
+{
+  "name": "Sven",
+  "author": "DDL",
+  "version_number": "0.2.0",
+  "website_url": "https://github.com/DDLovo/Sven",
+  "description": "Adds Dota 2's Sven as a playable melee survivor, with sweeping cleaves, Storm Hammer, three exclusive relics, and the Vigil Triumph appearance.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2122",
+    "RiskofThunder-HookGenPatcher-1.2.9",
+    "tristanmcpherson-R2API-5.0.5",
+    "RiskofThunder-R2API_Core-5.3.0",
+    "RiskofThunder-R2API_ContentManagement-1.1.0",
+    "RiskofThunder-R2API_DamageType-1.1.7",
+    "RiskofThunder-R2API_Language-1.1.0",
+    "RiskofThunder-R2API_Loadout-1.0.2",
+    "RiskofThunder-R2API_Networking-1.0.4",
+    "RiskofThunder-R2API_Prefab-1.1.1",
+    "RiskofThunder-R2API_RecalculateStats-1.7.0",
+    "RiskofThunder-R2API_Skins-1.4.14"
+  ]
+}

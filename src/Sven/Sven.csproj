@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework><LangVersion>latest</LangVersion>
+    <AssemblyName>Sven</AssemblyName><RootNamespace>SvenMod</RootNamespace><Version>0.2.0</Version>
+    <Nullable>disable</Nullable><AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies><NoWarn>$(NoWarn);NU1701;CS0436</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../../unity/DotaHero/Assets/Sven/Bundle/Audio/*.wav" LogicalName="SvenAudio.%(Filename)%(Extension)" />
+    <PackageReference Include="BepInEx.Core" Version="5.4.21" />
+    <PackageReference Include="UnityEngine.Modules" Version="2021.3.45" />
+    <PackageReference Include="RiskOfRain2.GameLibs" Version="1.5.0-r.1" />
+    <PackageReference Include="MMHOOK.RoR2" Version="2026.10.8" NoWarn="NU1701" />
+  </ItemGroup>
+</Project>

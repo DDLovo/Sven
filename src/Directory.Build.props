@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <R2APIPlugins Condition="'$(R2APIPlugins)' == ''">$(MSBuildThisFileDirectory)..\local\R2API</R2APIPlugins>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(R2APIPlugins)\**\R2API.*.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
